@@ -23,7 +23,23 @@ export default function Login() {
     }
   }, []);
 
-  
+  const handleChange = (event) => {
+    setValues({ ...values, [event.target.name]: event.target.value });
+  };
+
+  const validateForm = () => {
+    const { username, password } = values;
+    if (username === "") {
+      toast.error("Email and Password is required.", toastOptions);
+      return false;
+    } else if (password === "") {
+      toast.error("Email and Password is required.", toastOptions);
+      return false;
+    }
+    return true;
+  };
+
+}
 
 const FormContainer = styled.div`
   height: 100vh;
