@@ -17,8 +17,13 @@ export default function Login() {
     draggable: true,
     theme: "dark",
   };
+  useEffect(() => {
+    if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
+      navigate("/");
+    }
+  }, []);
+
   
-}
 
 const FormContainer = styled.div`
   height: 100vh;
