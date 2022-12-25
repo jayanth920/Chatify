@@ -1,5 +1,5 @@
 import React from 'react'
-
+import AddImage from "../img/addImage.png"
 const Register = () => {
   return (
     <div className="formContainer">
@@ -7,10 +7,14 @@ const Register = () => {
         <span className="logo">CHATIFY</span>
         <span className="title">Register</span>
         <form>
-          <input required type="text" placeholder="display name" />
-          <input required type="email" placeholder="email" />
-          <input required type="password" placeholder="password" />
-          <input required style={{ display: "none" }} type="file" id="file" />
+          <input required type="text" placeholder="Name" />
+          <input required type="email" placeholder="Email" />
+          <input required type="password" placeholder="Password" />
+          <input style={{display:"none"}}type="file"id="file"/> 
+          <label htmlFor="">
+           <img src={AddImage} alt="AddImage"></img>
+           <label>Add your Profile Picture</label>
+          </label>
           <button>Sign up</button>
         </form>
         <p> Do you have an account? Login</p>
