@@ -7,8 +7,8 @@ const Navbar = () => {
         <div className="user">
         <img src="https://thumbs.dreamstime.com/b/autumn-fall-nature-scene-autumnal-park-beautiful-77869343.jpg" alt="" />
             <span>JAY</span>
-            <button>logout</button>
         </div>
+        <button>logout</button>
     </div>
   )
 }
