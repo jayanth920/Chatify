@@ -112,6 +112,7 @@
   
       .sidebar {
         flex: 1;
+        font-family: 'Bebas Neue', cursive;
         background-color: #3e3c61;
         position: relative;
   
@@ -208,6 +209,7 @@
       }
       .chat {
         flex: 2;
+        font-family: 'Bebas Neue', cursive;
   
         .chatInfo {
           height: 50px;
@@ -220,6 +222,7 @@
         }
   
         .chatIcons {
+          
           display: flex;
           gap: 10px;
   
