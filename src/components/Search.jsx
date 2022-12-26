@@ -6,14 +6,12 @@ const Search = () => {
   return (
     <div className='search'>
         <div className="searchForm">
-            <input type="text" />
+            <input type="text" placeholder='search user...' />
         </div>
         <div className="userChat">
             <img src="https://thumbs.dreamstime.com/b/autumn-fall-nature-scene-autumnal-park-beautiful-77869343.jpg" alt="" />
             <div className="userChatInfo">
-                <span>
-                    James
-                </span>
+                <span>James</span>
             </div>
         </div>
     </div>
