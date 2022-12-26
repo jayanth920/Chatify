@@ -1,13 +1,15 @@
-import React, { useState } from "react";
-import AddImage from "../img/addImage.png";
+import React from "react";
+import { useState } from "react";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth, db, storage } from "../firebase";
-import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import AddImage from "../img/addImage.png";
 import { doc, setDoc } from "firebase/firestore";
-
+import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import {useNavigate} from 'react-router-dom'
 
 const Register = () => {
   const [err, setErr] = useState(false);
+  const navigate = useNavigate()
 
 
   const handleSubmit = async (e) => {
@@ -43,6 +45,7 @@ const Register = () => {
 
             //create empty user chats on firestore
             await setDoc(doc(db, "userChats", res.user.uid), {});
+            navigate("/")
           } catch (err) {
             console.log(err);
             setErr(true);
