@@ -9,10 +9,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/register" element={<Register />} />
+        <Route path="/">
+        <Route index element={<Home />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/home" element={<Home />} />
-            
+        <Route path="/register" element={<Register />} />
+      </Route>    
       </Routes>
     </BrowserRouter>
   );
