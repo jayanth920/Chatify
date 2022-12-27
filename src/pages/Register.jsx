@@ -1,18 +1,18 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+import Add from "../img/addImage.png";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import { auth, db, storage } from "../firebase";
-import AddImage from "../img/addImage.png";
-import { doc, setDoc } from "firebase/firestore";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
-import {useNavigate} from 'react-router-dom'
+import { doc, setDoc } from "firebase/firestore";
+import { useNavigate, Link } from "react-router-dom";
 
 const Register = () => {
   const [err, setErr] = useState(false);
-  const navigate = useNavigate()
-
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
+    setLoading(true);
     e.preventDefault();
     const displayName = e.target[0].value;
     const email = e.target[1].value;
@@ -45,18 +45,21 @@ const Register = () => {
 
             //create empty user chats on firestore
             await setDoc(doc(db, "userChats", res.user.uid), {});
-            navigate("/")
+            navigate("/");
           } catch (err) {
             console.log(err);
             setErr(true);
+            setLoading(false);
           }
         });
       });
     } catch (err) {
       setErr(true);
+      setLoading(false);
     }
   };
-    return (
+
+  return (
     <div className="formContainer">
       <div className="formWrapper">
         <span className="logo">CHATIFY</span>
@@ -65,18 +68,21 @@ const Register = () => {
           <input required type="text" placeholder="Name" />
           <input required type="email" placeholder="Email" />
           <input required type="password" placeholder="Password" />
-          <input style={{display:"none"}}type="file"id="file"/> 
+          <input required style={{ display: "none" }} type="file" id="file" />
           <label htmlFor="file">
-           <img src={AddImage} alt="AddImage"></img>
-           <label>Add your Profile Picture</label>
+            <img src={Add} alt="" />
+            <span>Add your profile picture</span>
           </label>
-          <button>Sign up</button>
-          {err && <span>Something went wrong!</span>}
+          <button disabled={loading}>Sign up</button>
+          {loading && "Uploading and compressing the image please wait..."}
+          {err && <span>Something went wrong here, please try again!</span>}
         </form>
-        <p> Do you have an account? Login</p>
+        <p>
+          You do have an account? <Link to="/register">Login Here</Link>
+        </p>
       </div>
     </div>
   );
-}
+};
 
 export default Register;
