@@ -12,9 +12,10 @@ export const AuthContextProvider = ({children})=>{
             console.log(user)
         })
     }, []); 
-
+return(
     <AuthContext.Provider value={{currentUser}}>
         {children}
     </AuthContext.Provider>
+)
 
 }
