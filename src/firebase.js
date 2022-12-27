@@ -4,13 +4,12 @@ import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDcNSPQidDGJFKezk6YsbODRohHZg11MpQ",
-  authDomain: "chatify-61055.firebaseapp.com",
-  databaseURL: "https://chatify-61055-default-rtdb.firebaseio.com",
-  projectId: "chatify-61055",
-  storageBucket: "chatify-61055.appspot.com",
-  messagingSenderId: "519907436309",
-  appId: "1:519907436309:web:d63a183c80c655c0ad6b1c"
+  apiKey: "AIzaSyDBYbqQQSV01wjE6Taxz4lah82We2RpR6w",
+  authDomain: "chatify-e6623.firebaseapp.com",
+  projectId: "chatify-e6623",
+  storageBucket: "chatify-e6623.appspot.com",
+  messagingSenderId: "532122930071",
+  appId: "1:532122930071:web:49005dde65ae037b6a92d2"
 };
 
 // Initialize Firebase
