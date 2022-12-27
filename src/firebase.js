@@ -5,14 +5,13 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAb5iX9rPE8i1Yf5vFEu2JTX2R_GL2VzG8",
-    authDomain: "chat-ec569.firebaseapp.com",
-    projectId: "chat-ec569",
-    storageBucket: "chat-ec569.appspot.com",
-    messagingSenderId: "879351208128",
-    appId: "1:879351208128:web:988e229cc3a5ad2086b525"
+    apiKey: "AIzaSyDcNSPQidDGJFKezk6YsbODRohHZg11MpQ",
+    authDomain: "chatify-61055.firebaseapp.com",
+    projectId: "chatify-61055",
+    storageBucket: "chatify-61055.appspot.com",
+    messagingSenderId: "519907436309",
+    appId: "1:519907436309:web:d63a183c80c655c0ad6b1c"
   };
-
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
