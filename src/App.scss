@@ -43,6 +43,13 @@ font-weight: bold;
 background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
 }
 
+.sidebarLogo{
+  font-family: Rocher;
+  base-palette: 7;
+  font-palette: --Red;
+
+}
+
 .register{
   border-radius: 5px;
   background-color: rgb(0, 136, 255);
@@ -170,7 +177,7 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
 
     .sidebar {
       flex: 1;
-      background-color: #3e3c61;
+      background-color: #19191f;
       position: relative;
 
       button {
@@ -182,6 +189,7 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
       }
 
       .navbar {
+        font-family: Rocher;
         display: flex;
         align-items: center;
         background-color: #2f2d52;
@@ -199,12 +207,16 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
 
         .user {
           display: flex;
-          gap: 10px;
+          gap: 15px;
 
+          .name{
+            align-self: center;
+          }
           img {
+
             background-color: #ddddf7;
-            height: 24px;
-            width: 24px;
+            height: 40px;
+            width: 40px;
             border-radius: 50%;
             object-fit: cover;
           }
@@ -223,12 +235,15 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
         }
       }
       .search {
-        border-bottom: 1px solid gray;
+        border-bottom: 2px solid white;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
 
         .searchForm {
           padding: 10px;
 
           input {
+            font-family: Unbounded;
             background-color: transparent;
             border: none;
             color: white;
@@ -242,16 +257,27 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
       }
 
       .userChat {
+        border:2px solid black ;     
+         border-radius: 10px;
+        background: white;
         padding: 10px;
         display: flex;
         align-items: center;
         gap: 10px;
-        color: white;
+
         cursor: pointer;
 
-        &:hover {
-          background-color: #2f2d52;
-        }
+
+        
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: rgb(242, 179, 4);
+            transition-duration: 1s;
+            transition: width 1s;
+            transition-timing-function: ease-out 1s;
+          }
+        
 
         img {
           width: 50px;
@@ -262,27 +288,31 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
 
         .userChatInfo {
           span {
-            font-size: 18px;
+            font-family: Unbounded;
+            font-size: 15px;
+            color: black;
             font-weight: 500;
           }
           p {
-            font-size: 14px;
-            color: lightgray;
+            font-family: Unbounded;
+            font-size: 10px;
+            color: rgb(87, 87, 87);
           }
         }
       }
     }
     .chat {
-      flex: 2;
+      flex:2;
 
       .chatInfo {
+        font-family:Unbounded ;
         height: 50px;
-        background-color: #5d5b8d;
+        background-color: #d1be6e;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-        color: lightgray;
+        color: black;
       }
 
       .chatIcons {
@@ -296,10 +326,14 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
       }
 
       .messages {
-        background-color: #ddddf7;
+        background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st1%7Bopacity:0.3%3Bfill:%23FFFFFF%3B%7D.st3%7Bopacity:0.1%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Ccircle class='st1' cx='5' cy='8' r='1'/%3E%3Ccircle class='st1' cx='38' cy='3' r='1'/%3E%3Ccircle class='st1' cx='12' cy='4' r='1'/%3E%3Ccircle class='st1' cx='16' cy='16' r='1'/%3E%3Ccircle class='st1' cx='47' cy='46' r='1'/%3E%3Ccircle class='st1' cx='32' cy='10' r='1'/%3E%3Ccircle class='st1' cx='3' cy='46' r='1'/%3E%3Ccircle class='st1' cx='45' cy='13' r='1'/%3E%3Ccircle class='st1' cx='10' cy='28' r='1'/%3E%3Ccircle class='st1' cx='22' cy='35' r='1'/%3E%3Ccircle class='st1' cx='3' cy='21' r='1'/%3E%3Ccircle class='st1' cx='26' cy='20' r='1'/%3E%3Ccircle class='st1' cx='30' cy='45' r='1'/%3E%3Ccircle class='st1' cx='15' cy='45' r='1'/%3E%3Ccircle class='st1' cx='34' cy='36' r='1'/%3E%3Ccircle class='st1' cx='41' cy='32' r='1'/%3E%3C/svg%3E");
+        background-position: 0px 0px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        animation: animatedBackground 20s linear infinite;
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
+        font-family: Unbounded;
 
         .message {
           display: flex;
@@ -324,8 +358,10 @@ background: linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%);
             display: flex;
             flex-direction: column;
             gap: 10px;
+            
 
             p {
+              box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
               background-color: white;
               padding: 10px 20px;
               border-radius: 0px 10px 10px 10px;
