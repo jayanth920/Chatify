@@ -5,16 +5,18 @@ function AnimCursor() {
     <AnimatedCursor
       innerSize={18}
       outerSize={20}
-      color='100,200, 100'
+      color='red'
       outerAlpha={0.3}
       innerScale={1}
       outerScale={3}
       hasBlendMode={true}
       outerStyle={{
-        mixBlendMode: 'exclusion'
+        mixBlendMode: 'exclusion',
+        background: 'white'
       }}
       innerStyle={{
-        border: '3px solid #fff'
+        background: 'linear-gradient(325deg,  #6f00fc 0%,#fc7900 50%,#fcc500b9 100%)'
+
       }}
       clickables={[
         'a',
@@ -26,6 +28,9 @@ function AnimCursor() {
         'input[type="password"]',
         'input[type="name"]',
         'label[for]',
+        'span',
+        'p',
+        'h1',
         'select',
         'textarea',
         'button',
