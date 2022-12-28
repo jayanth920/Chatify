@@ -62,8 +62,8 @@ const Register = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">CHATIFY</span>
-        <span className="title">Register</span>
+        <h1 className="mint">CHATIFY</h1>
+        <span className="title">REGISTER</span>
         <form onSubmit={handleSubmit}>
           <input required type="text" placeholder="Name" />
           <input required type="email" placeholder="Email" />
@@ -73,9 +73,9 @@ const Register = () => {
             <img src={Add} alt="" />
             <span>Add your profile picture</span>
           </label>
-          <button disabled={loading}>Sign up</button>
+          <button className="register"disabled={loading}>SIGN UP </button>
           {loading && "Uploading and compressing the image please wait..."}
-          {err && <span>Something went wrong here, please try again!</span>}
+          {err && <span>🛑🚫⚠️Something went wrong here, please try again!⚠️🚫🛑</span>}
         </form>
         <p>
           You do have an account? <Link to="/login">Login Here</Link>
