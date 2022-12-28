@@ -22,12 +22,12 @@ const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">CHATIFY</span>
-        <span className="title">Login</span>
+        <h1 className="mint">CHATIFY</h1>
+        <span className="title">LOGIN</span>
         <form onSubmit={handleSubmit}>
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
-          <button>Sign in</button>
+          <input className="email" type="email" placeholder="Email" />
+          <input className="Password" type="password" placeholder="Password" />
+          <button className="login">Log In</button>
           {err && <span>Something went wrong</span>}
         </form>
         <p>You don't have an account? <Link to="/register">Register</Link></p>
