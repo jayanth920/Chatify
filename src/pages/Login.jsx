@@ -31,6 +31,7 @@ const Login = () => {
           {err && <span>Something went wrong</span>}
         </form>
         <p>Don't have an account? <Link to="/register">Register</Link></p>
+        <marquee className="marquee"> <span>------CHATIFY®</span>&nbsp;&nbsp;&nbsp;<span>by</span>&nbsp;&nbsp;&nbsp;<span>Jay------</span></marquee>
       </div>
     </div>
   );
