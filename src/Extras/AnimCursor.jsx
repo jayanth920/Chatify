@@ -4,7 +4,7 @@ function AnimCursor() {
   return (
     <AnimatedCursor
       innerSize={18}
-      outerSize={20}
+      outerSize={22}
       color='red'
       outerAlpha={0.3}
       innerScale={1}
@@ -31,6 +31,7 @@ function AnimCursor() {
         'span',
         'p',
         'h1',
+        '.userChat',
         'select',
         'textarea',
         'button',
