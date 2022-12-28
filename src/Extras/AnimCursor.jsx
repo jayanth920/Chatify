@@ -35,6 +35,7 @@ function AnimCursor() {
         'select',
         'textarea',
         'button',
+        '.logout',
         '.link'
       ]}
     />
