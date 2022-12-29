@@ -1,4 +1,6 @@
-<h1 align="center">Presenting to you, CHATIFY v1.0</h1>
+
+<h1 align="center">CHATIFY v1.0</h1>
+
 <img align="center"  alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png">
 
 <h3 align="center">An APP that can be used to chat from anywhere and anytime across the globe.</h3>
