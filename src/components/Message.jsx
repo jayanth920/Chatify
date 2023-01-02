@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from "react";
-import { AuthContext } from "../context/AuthContext";
-import { ChatContext } from "../context/ChatContext";
+import { AuthContext } from "../render/Authorization";
+import { ChatContext } from "../render/ChatRender";
 
 const Message = ({ message }) => {
   const { currentUser } = useContext(AuthContext);
