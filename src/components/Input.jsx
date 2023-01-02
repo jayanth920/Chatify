@@ -1,14 +1,8 @@
 import React, { useContext, useState } from "react";
 import Img from "../img/img.png";
-import { AuthContext } from "../context/AuthContext";
-import { ChatContext } from "../context/ChatContext";
-import {
-  arrayUnion,
-  doc,
-  serverTimestamp,
-  Timestamp,
-  updateDoc,
-} from "firebase/firestore";
+import { AuthContext } from "../render/Authorization";
+import { ChatContext } from "../render/ChatRender";
+import {arrayUnion,doc,serverTimestamp,Timestamp,updateDoc} from "firebase/firestore";
 import { db, storage } from "../firebase";
 import { v4 as uuid } from "uuid";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
