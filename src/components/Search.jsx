@@ -30,8 +30,8 @@ const Search = () => {
     e.code === "Enter" && handleSearch();
   };
 
+  //Using the trick of combine Ids to represent conversation between 2 users.
   const handleSelect = async () => {
-    //check whether the group(chats in firestore) exists, if not create
     const combinedId =
       currentUser.uid > user.uid
         ? currentUser.uid + user.uid
@@ -39,11 +39,11 @@ const Search = () => {
     try {
       const res = await getDoc(doc(db, "chats", combinedId));
 
+      //if statement to check if chats exits it will await
       if (!res.exists()) {
-        //create a chat in chats collection
         await setDoc(doc(db, "chats", combinedId), { messages: [] });
 
-        //create user chats
+        //if the chat between the user does not exist then it will be created
         await updateDoc(doc(db, "userChats", currentUser.uid), {
           [combinedId + ".userInfo"]: {
             uid: user.uid,
