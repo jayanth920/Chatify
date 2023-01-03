@@ -12,7 +12,8 @@
 
 
 <h2 align="left"><img align="center" height="70" width="400" alt="Logo" src="https://user-images.githubusercontent.com/113549918/210448030-ab564a18-4eb2-42fb-8cb6-b64521cd4b84.png"></h2>
-<h2 align="left">Technologies Used : </h2>
+<h2 align="left"> <img width="400" height="70" alt="Screenshot 2023-01-03 at 3 58 22 PM" src="https://user-images.githubusercontent.com/113549918/210448549-3dce5ab7-38b2-4e47-a054-4799055e3075.png">
+</h2>
 <h3 align="left">FRONTEND - [HTML5]&nbsp;&nbsp;[CSS]&nbsp;&nbsp;[JAVASCRIPT]&nbsp;&nbsp;[SASS]&nbsp;&nbsp;[REACT JS]&nbsp;&nbsp;
 <p align="left"> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
