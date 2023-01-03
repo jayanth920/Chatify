@@ -11,6 +11,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jayanth920&label=Profile%20views&color=0e75b6&style=flat" alt="jayanth920" /> </p>
 
 
+<h2 align="left"><img align="center" height="70" width="400" alt="Logo" src="https://user-images.githubusercontent.com/113549918/210448030-ab564a18-4eb2-42fb-8cb6-b64521cd4b84.png"></h2>
 <h2 align="left">Technologies Used : </h2>
 <h3 align="left">FRONTEND - [HTML5]&nbsp;&nbsp;[CSS]&nbsp;&nbsp;[JAVASCRIPT]&nbsp;&nbsp;[SASS]&nbsp;&nbsp;[REACT JS]&nbsp;&nbsp;
 <p align="left"> 
