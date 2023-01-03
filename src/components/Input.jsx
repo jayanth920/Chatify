@@ -10,7 +10,6 @@ import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 const Input = () => {
   const [text, setText] = useState("");
   const [img, setImg] = useState(null);
-
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
 
@@ -22,7 +21,7 @@ const Input = () => {
 
       uploadTask.on(
         (error) => {
-          //TODO:Handle Error
+          //Write code to handle error, for now working just fine.
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
