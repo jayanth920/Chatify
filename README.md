@@ -12,6 +12,15 @@
 
 
 <h2 align="left"><img align="center" height="70" width="400" alt="Logo" src="https://user-images.githubusercontent.com/113549918/210448030-ab564a18-4eb2-42fb-8cb6-b64521cd4b84.png"></h2>
+
+## LOGIN PAGE
+<img width="1112" alt="Login" src="https://user-images.githubusercontent.com/113549918/210448807-4a9c0be3-7756-4e8a-94db-8aaa1af776e1.png">
+
+## REGISTER PAGE
+<img width="1120" alt="Register" src="https://user-images.githubusercontent.com/113549918/210448913-37f82b19-d804-4bef-9cad-5b4db197a256.png">
+
+
+
 <h2 align="left"> <img width="400" height="70" alt="Screenshot 2023-01-03 at 3 58 22 PM" src="https://user-images.githubusercontent.com/113549918/210448549-3dce5ab7-38b2-4e47-a054-4799055e3075.png">
 </h2>
 <h3 align="left">FRONTEND - [HTML5]&nbsp;&nbsp;[CSS]&nbsp;&nbsp;[JAVASCRIPT]&nbsp;&nbsp;[SASS]&nbsp;&nbsp;[REACT JS]&nbsp;&nbsp;
@@ -28,6 +37,9 @@
  </p>
 
 
+<h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
+
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -35,5 +47,3 @@
 <a href="https://www.hackerrank.com/@jayanthgajula921" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@jayanthgajula921" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/jayanth920" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="jayanth920" height="30" width="40" /></a>
 </p>
-
-<h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
