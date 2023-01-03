@@ -1,7 +1,8 @@
 <p align="center">
 <img align="left" width="100" src="https://user-images.githubusercontent.com/113549918/210048445-ee84eaa1-c2a0-44be-82e6-22c8f286ea23.gif">
 <img align="right" width="100" src="https://user-images.githubusercontent.com/113549918/210048445-ee84eaa1-c2a0-44be-82e6-22c8f286ea23.gif">
-<h1 align="center">CHATIFY v1.0</h1>
+<h1 align="center">CHATIFY v1.0 </h1>
+
 </p>
 
 <img align="center"  alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png">
