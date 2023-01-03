@@ -2,11 +2,11 @@
 <img align="left" width="100" src="https://user-images.githubusercontent.com/113549918/210048445-ee84eaa1-c2a0-44be-82e6-22c8f286ea23.gif">
 <img align="right" width="100" src="https://user-images.githubusercontent.com/113549918/210048445-ee84eaa1-c2a0-44be-82e6-22c8f286ea23.gif">
 <h1 align="center">CHATIFY v1.0</h1>
-</pt>
+</p>
 
 <img align="center"  alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png">
 
-<h3 align="center">An APP that can be used to chat from anywhere and anytime across the globe.</h3>
+<h3 align="center">An app that can be used to chat from anywhere and anytime across the globe. In Chatify v1.0, user can chat with one another without any limitations.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jayanth920&label=Profile%20views&color=0e75b6&style=flat" alt="jayanth920" /> </p>
 
@@ -34,3 +34,4 @@
 <a href="https://www.leetcode.com/jayanth920" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="jayanth920" height="30" width="40" /></a>
 </p>
 
+<h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
