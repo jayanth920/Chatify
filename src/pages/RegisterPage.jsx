@@ -20,10 +20,10 @@ const Register = () => {
     const file = e.target[3].files[0];
 
     try {
-      //Create user
+      //USER CREATION
       const res = await createUserWithEmailAndPassword(auth, email, password);
 
-      //Create a unique image name
+      //UNIQUE NAME CREATION
       const date = new Date().getTime();
       const storageRef = ref(storage, `${displayName + date}`);
 
@@ -35,7 +35,7 @@ const Register = () => {
               displayName,
               photoURL: downloadURL,
             });
-            //create user on firestore
+            //CREATION ON FIRESTORE DATABSE
             await setDoc(doc(db, "users", res.user.uid), {
               uid: res.user.uid,
               displayName,
@@ -43,7 +43,7 @@ const Register = () => {
               photoURL: downloadURL,
             });
 
-            //create empty user chats on firestore
+            //AUTO CREATE empty
             await setDoc(doc(db, "userChats", res.user.uid), {});
             navigate("/");
           } catch (err) {
