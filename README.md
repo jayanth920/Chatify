@@ -20,7 +20,8 @@
 ## REGISTER PAGE
 <img width="1120" alt="Register" src="https://user-images.githubusercontent.com/113549918/210448913-37f82b19-d804-4bef-9cad-5b4db197a256.png">
 
-
+## CHAT PAGE
+<img width="1091" alt="Chat" src="https://user-images.githubusercontent.com/113549918/210584307-e8f448fa-5434-48ef-8338-a73cc412ae19.png">
 
 <h2 align="left"> <img width="400" height="70" alt="Screenshot 2023-01-03 at 3 58 22 PM" src="https://user-images.githubusercontent.com/113549918/210448549-3dce5ab7-38b2-4e47-a054-4799055e3075.png">
 </h2>
