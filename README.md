@@ -95,9 +95,4 @@ AAU I want to be able to login.<br>
 </p>
 <br><br>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/jayanth920" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="jayanth920" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@jayanthgajula921" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@jayanthgajula921" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/jayanth920" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="jayanth920" height="30" width="40" /></a>
-</p>
+
