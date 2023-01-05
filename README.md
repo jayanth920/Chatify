@@ -65,6 +65,20 @@ Now you can use and build over this app as u wish !
 (CHOICE)- You can add your own firebase config in firebase.js to work with this project on your own 😉.
   ```
   </p>
+  
+  
+<p>
+<h2><img width="300" height="70" alt="Screenshot 2023-01-05 at 9 42 35 AM" src="https://user-images.githubusercontent.com/113549918/210824308-c720e92a-a183-4646-b26c-c66d37144e11.png"></h2>
+<h3>MVP</h3>
+AAU I want to be able to chat with someone on the app.<br>
+AAU I want to be able to upload pictures.<br>
+AAU I want to be able to send pictures.<br>
+AAU I want to be able to chat in real time.<br>
+<h3> POST MVP </h3>
+AAU I want to be able to type the username to find a user.<br>
+AAU I want to be able to login.<br>
+ </p>
+
 
 <p>
 <h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
