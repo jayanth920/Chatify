@@ -79,6 +79,16 @@ AAU I want to be able to type the username to find a user.<br>
 AAU I want to be able to login.<br>
  </p>
 
+<p>
+<h2>
+<img width="300" height="70" alt="Screenshot 2023-01-05 at 11 12 06 AM" src="https://user-images.githubusercontent.com/113549918/210840930-70a24136-fa9b-4ed5-93ae-55ce835262bc.png">
+</h2>
+<br>
+<img src="https://user-images.githubusercontent.com/113549918/210841161-ef3dd49f-e30e-467a-9e60-6e93c55969d7.jpg"><br>
+<img src="https://user-images.githubusercontent.com/113549918/210841172-353ca1d8-e5b3-4b01-94d0-218b674d3128.jpg"><br>
+ </p>
+ <br>
+
 
 <p>
 <h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
