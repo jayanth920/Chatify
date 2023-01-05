@@ -7,7 +7,7 @@
 
 <img align="center"  alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png">
 
-<h3 align="center">An app that can be used to chat from anywhere and anytime across the globe. In Chatify v1.0, user can chat with one another without any limitations.</h3>
+<h3 align="center">Chatify v1.0 is a messaging app that lets you connect with people from all around the world. Whether you're at home or on the go, Chatify allows you to chat with anyone, anytime, anywhere. There are no restrictions on who you can message with Chatify – you're free to connect with anyone you'd like.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jayanth920&label=Profile%20views&color=0e75b6&style=flat" alt="jayanth920" /> </p>
 
