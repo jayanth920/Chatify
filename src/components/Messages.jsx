@@ -1,6 +1,6 @@
 import { doc, onSnapshot } from "firebase/firestore";
 import React, { useContext, useEffect, useState } from "react";
-import { ChatContext } from "../render/ChatRender";
+import { ChatContext } from "../render/ChatContext";
 import { db } from "../firebase";
 import Message from "./Message";
 
