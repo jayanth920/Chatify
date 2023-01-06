@@ -98,6 +98,7 @@ AAU I want to be able to login.<br>
 1. Using Id everywhere in the code, while firebase used uid.<br>
 2. Learning SCSS or SASS as it had nested css code and took time to understand its hierarchy.<br>
 3. Using an animated cursor with custom tags.<br>
+4. Importance of async functions, as the firebase returned an annoying error promise.After a bit of research, I added the word "async", it worked like a charm.
 </p>
 
 
