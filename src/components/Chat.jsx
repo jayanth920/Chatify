@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Messages from "./Messages";
 import Input from "./Input";
-import { ChatContext } from "../render/ChatRender";
+import { ChatContext } from "../render/ChatContext";
 
 const Chat = () => {
   const { data } = useContext(ChatContext);
