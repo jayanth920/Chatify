@@ -4,7 +4,7 @@ import Register from "./pages/RegisterPage";
 import "./App.scss";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useContext } from "react";
-import { AuthContext } from "./render/Authorization";
+import { AuthContext } from "./render/AuthContext";
 
 function Main() {
   const { currentUser } = useContext(AuthContext);
