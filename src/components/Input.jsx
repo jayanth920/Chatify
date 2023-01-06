@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import Img from "../img/img.png";
-import { AuthContext } from "../render/Authorization";
-import { ChatContext } from "../render/ChatRender";
+import { AuthContext } from "../render/AuthContext";
+import { ChatContext } from "../render/ChatContext";
 import {arrayUnion,doc,serverTimestamp,Timestamp,updateDoc} from "firebase/firestore";
 import { db, storage } from "../firebase";
 import { v4 as uuid } from "uuid";
