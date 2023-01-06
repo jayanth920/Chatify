@@ -84,8 +84,8 @@ AAU I want to be able to login.<br>
 <img width="300" height="70" alt="Screenshot 2023-01-05 at 11 12 06 AM" src="https://user-images.githubusercontent.com/113549918/210840930-70a24136-fa9b-4ed5-93ae-55ce835262bc.png">
 </h2>
 <br>
-<img src="https://user-images.githubusercontent.com/113549918/210841161-ef3dd49f-e30e-467a-9e60-6e93c55969d7.jpg"><br>
-<img src="https://user-images.githubusercontent.com/113549918/210841172-353ca1d8-e5b3-4b01-94d0-218b674d3128.jpg"><br>
+<img src="https://user-images.githubusercontent.com/113549918/211029919-600e5537-7cd2-489d-b6f7-342e6a738c6e.png"><br>
+<img src="https://user-images.githubusercontent.com/113549918/211030125-14448af7-d1ea-4c03-8d11-63d31e6b12a7.png"><br>
  </p>
  <br>
 
