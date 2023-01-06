@@ -101,7 +101,7 @@ AAU I want to be able to login.<br>
 <p>
 <h3>Issues Faced :</h3>
 1. Using Id everywhere in the code, while firebase used uid.<br>
-2. Learning SCSS or SASS and using it. It also allowed to use CSS in it.<br>
+2. Learning SCSS or SASS as it had nested css code and took time to understand its hierarchy.<br>
 3. Using an animated cursor with custom tags.<br>
 </p>
 
