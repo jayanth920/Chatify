@@ -92,11 +92,6 @@ AAU I want to be able to login.<br>
  <br>
 
 
-<p>
-<h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
-</p>
-<br><br>
-
 
 <p>
 <h3>Issues Faced :</h3>
@@ -104,5 +99,12 @@ AAU I want to be able to login.<br>
 2. Learning SCSS or SASS as it had nested css code and took time to understand its hierarchy.<br>
 3. Using an animated cursor with custom tags.<br>
 </p>
+
+
+<p>
+<h3>Having been an initial release, in upcoming v1.1 , <img align="center" height="50" width="120" alt="Logo" src="https://user-images.githubusercontent.com/113549918/209898693-7066d489-2c0c-4ed1-b300-b6be8847db36.png"> will have user groups and multi-auth with <img src="https://github.com/devicons/devicon/blob/master/icons/google/google-original.svg" alt="css3" width="40" height="40"/> ,<img src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" alt="css3" width="40" height="40"/> and much more !</h3>
+</p>
+<br><br>
+
 
 
