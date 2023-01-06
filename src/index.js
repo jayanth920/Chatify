@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { AuthContextProvider } from "./render/Authorization";
-import { ChatContextProvider } from "./render/ChatRender";
+import { AuthContextProvider } from "./render/AuthContext";
+import { ChatContextProvider } from "./render/ChatContext";
 
 ReactDOM.render(
   <AuthContextProvider>
