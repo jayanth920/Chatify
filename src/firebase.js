@@ -3,13 +3,14 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 import { getFirestore } from "firebase/firestore";
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDBYbqQQSV01wjE6Taxz4lah82We2RpR6w",
-  authDomain: "chatify-e6623.firebaseapp.com",
-  projectId: "chatify-e6623",
-  storageBucket: "chatify-e6623.appspot.com",
-  messagingSenderId: "532122930071",
-  appId: "1:532122930071:web:49005dde65ae037b6a92d2"
+  apiKey: "AIzaSyD88t2T7FLv-GzMoHxLOW_dC_MJtSvukRA",
+  authDomain: "chatify-1.firebaseapp.com",
+  projectId: "chatify-1",
+  storageBucket: "chatify-1.appspot.com",
+  messagingSenderId: "798592906962",
+  appId: "1:798592906962:web:acf3b7c473eb8129b99f0b"
 };
 
 // Initialize Firebase
