@@ -10,17 +10,28 @@ const Chats = () => {
   const { dispatch } = useContext(ChatContext);
 
   useEffect(() => {
+    let isMounted = true;
+
     const getChats = () => {
       const unsub = onSnapshot(doc(db, "userChats", currentUser.uid), (doc) => {
-        setChats(doc.data());
+        if (isMounted) {
+          setChats(doc.data());
+        }
       });
 
       return () => {
         unsub();
+        isMounted = false;
       };
     };
 
-    currentUser.uid && getChats();
+    if (currentUser.uid) {
+      getChats();
+    }
+
+    return () => {
+      isMounted = false;
+    };
   }, [currentUser.uid]);
 
   const handleSelect = (u) => {
@@ -29,7 +40,7 @@ const Chats = () => {
 
   return (
     <div className="chats">
-      {Object.entries(chats)?.sort((a,b)=>b[1].date - a[1].date).map((chat) => (
+      {Object.entries(chats)?.sort((a, b) => b[1].date - a[1].date).map((chat) => (
         <div
           className="userChat"
           key={chat[0]}
