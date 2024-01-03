@@ -28,10 +28,10 @@ const Login = () => {
           <input className="email" type="email" placeholder="Email" />
           <input className="Password" type="password" placeholder="Password" />
           <button className="login">Log In</button>
-          {err && <span className="error">🚫⚠️Something went wrong here, please try again!⚠️🚫</span>}
         </form>
         <p>Don't have an account? <Link to="/register">Register</Link></p>
         <marquee className="marquee"> <span>------CHATIFY®</span>&nbsp;&nbsp;&nbsp;<span>by</span>&nbsp;&nbsp;&nbsp;<span>Jay------</span></marquee>
+        {err && <span className="error">🚫 Something went wrong here, please try again!</span>}
       </div>
     </div>
   );
