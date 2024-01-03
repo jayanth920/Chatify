@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 @font-face { font-family: 'Rocher'; src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);}
 
+body{
+  margin:0;
+}
 
 
 @mixin mobile {
