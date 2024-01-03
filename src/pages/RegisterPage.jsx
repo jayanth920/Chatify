@@ -73,7 +73,7 @@ const Register = () => {
             <span>Add your profile picture</span>
           </label>
           <button className="register"disabled={loading}>SIGN UP </button>
-          {loading && "Uploading and compressing the image please wait..."}
+          {loading && <span style={{color:"white"}}>Uploading and compressing the image please wait...</span>}
           {err && <span className="error">🛑🚫⚠️Something went wrong here, please try again!⚠️🚫🛑</span>}
         </form>
         <p>
