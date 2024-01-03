@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
+import Marquee from "react-fast-marquee";
 
 const Login = () => {
   const [err, setErr] = useState(false);
@@ -30,7 +31,7 @@ const Login = () => {
           <button className="login">Log In</button>
         </form>
         <p>Don't have an account? <Link to="/register">Register</Link></p>
-        <marquee className="marquee"> <span>------CHATIFY®</span>&nbsp;&nbsp;&nbsp;<span>by</span>&nbsp;&nbsp;&nbsp;<span>Jay------</span></marquee>
+        <Marquee className="marquee"> <span>------CHATIFY®</span>&nbsp;&nbsp;&nbsp;<span>by</span>&nbsp;&nbsp;&nbsp;<span>Jay------</span></Marquee>
         {err && <span className="error">🚫 Something went wrong here, please try again!</span>}
       </div>
     </div>
