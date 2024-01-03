@@ -5,6 +5,7 @@ import { auth, db, storage } from "../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { doc, setDoc } from "firebase/firestore";
 import { useNavigate, Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 
 const Register = () => {
   const [err, setErr] = useState(false);
@@ -79,7 +80,7 @@ const Register = () => {
         <p>
           You do have an account? <Link to="/login">Login Here</Link>
         </p>
-        <marquee className="marquee"> <span>------CHATIFY®</span>&nbsp;&nbsp;&nbsp;<span>by</span>&nbsp;&nbsp;&nbsp;<span>Jay------</span></marquee>
+        <Marquee pauseOnHover={true} className="marquee"> <span>------CHATIFY®</span>&nbsp;&nbsp;&nbsp;<span>by</span>&nbsp;&nbsp;&nbsp;<span>Jay------</span></Marquee>
       </div>
     </div>
   );
